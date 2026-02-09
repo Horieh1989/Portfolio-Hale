@@ -1,25 +1,94 @@
-<<<<<<< HEAD
-# Portfolio
-Welcome to my portfolio! I am a web developer skilled in HTML, CSS, SCSS, and JavaScript. This site showcases my projects, featuring a responsive design and interactive elements. Each project highlights the technologies used and includes links to the source code. Explore my work and feel free to reach out for collaboration!
-=======
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# My Personal Portfolio
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+A multi‑page personal portfolio website built to present who I am, showcase my skills, highlight my projects, and provide an easy way to contact me. This project demonstrates my front‑end development abilities using HTML, CSS, SCSS, and JavaScript, with a focus on clean structure and responsive design.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
->>>>>>> cbd27e5ad631c410b53fea62acd8ed683e1df28e
+## 📌 Project Structure
+
+This portfolio includes four main pages:
+
+### 1. About Me
+An introduction to who I am, my background, and my goals.
+
+### 2. Skills & Experience
+A dedicated page listing my technical skills, tools, and experience.
+
+### 3. Projects
+Showcases two of my main projects:
+- Svea Matsal — an internal ordering system built with .NET, MudBlazor, SQL Server, and Azure.
+- My Portfolio Website — this project itself, demonstrating front‑end design and development.
+
+### 4. Contact / My Information
+A page where visitors can find my contact details.
+
+
+## 🛠️ Technologies & Skills Used**
+
+### 🌐 Front‑End Development**
+- HTML5
+- CSS3  
+- SCSS (Sass)  
+  - Modular styling  
+  - Responsive breakpoints (`_media.scss`)  
+  - Main stylesheet (`styles.scss`)  
+
+### 🧠 JavaScript
+- Vanilla JavaScript (`app.js`)  
+- Interactive UI behavior  
+- Navigation logic  
+
+### 🎨 UI / UX
+- Responsive design  
+- Multi‑page layout  
+- Custom styling  
+- Image and media integration  
+
+### ⚙️ Development Tools
+- Visual Studio Code  
+- Live Server (local development)  
+- SCSS compiler  
+- Git & GitHub (version control + deployment)  
+
+
+## 📁 Folder Structure
+
+
+PORTFOLIO-HALE/
+│
+├── index.html
+├── app.js
+├── README.md
+│
+├── styles/
+│   ├── styles.scss
+│   ├── _media.scss
+│   ├── styles.css
+│   └── styles.css.map
+│
+├── Images/
+│   └── (project images, icons, media)
+│
+├── .vscode/
+├── .vs/
+└── launch.json
+
+
+
+
+## 🚀 Running the Project Locally
+
+Since this is a static website, you can run it easily using Live Server in VS Code:
+
+1. Install the Live Server extension  
+2. Right‑click `index.html`  
+3. Select Open with Live Server 
+4. The site will open at `http://localhost:5500/`
+
+
+
+
+## 📬 Contact
+
+Feel free to reach out if you want to connect or learn more about my work.
+
